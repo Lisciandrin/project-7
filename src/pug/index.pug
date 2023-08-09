@@ -1,0 +1,99 @@
+extends common/layout
+
+block content 
+    main.main
+        section.section-1
+            h2.section-1__title How Dreamshare works?
+            .section-1__content
+                .section-1__content__image.section-1__content__image_work
+                    button.section-1__content__image__button.section-1__content__image__button_work
+                        | Step
+                        | 1
+                    h2.section-1__content__image__title Sed leo enim, condimentum
+                    p.section-1__content__image__text
+                        | Quisque libero libero, dictum non turpis in, luctus
+                        | semper lorem. Donec rhoncus a leo sit amet facilisis.
+                .section-1__content__image.section-1__content__image_trip
+                    button.section-1__content__image__button.section-1__content__image__button_trip
+                        | Step
+                        | 2
+                    h2.section-1__content__image__title.section-1__content__image__title_tablet
+                        | Morbi velit
+                        | risus
+                    p.section-1__content__image__text
+                        | Nulla venenatis tempor dui in molestie. Nulla quis dictum
+                        | purus, sit amet porttitor est.
+                .section-1__content__image.section-1__content__image_rest
+                    button.section-1__content__image__button.section-1__content__image__button_rest
+                        | Step
+                        | 3
+                    h2.section-1__content__image__title Sed leo enim, condimentum
+                    p.section-1__content__image__text
+                        | Quisque libero libero, dictum non turpis in, luctus
+                        | semper lorem. Donec rhoncus a leo sit amet facilisis.
+        section.section-2
+            h2.section-2__title Meet a partner for your best holiday
+            .section-2__block
+                .section-2__content
+                    .section-2__content__partners.section-2__content__partners_bradley
+                        .section-2__content__partners__card
+                            img.section-2__content__partners__card__photo(src='./images/Bitmap-2.png', alt='')
+                            img.section-2__content__partners__card__icon.section-2__content__partners__card__icon_music(src='./images/music2.png', alt='')
+                        h3.section-2__content__partners__name Bradley Hunter
+                        p.section-2__content__partners__text
+                            | Based in Chicago. I love playing tennis and loud
+                            | music.
+                    .section-2__content__partners.section-2__content__partners_marie
+                        .section-2__content__partners__card
+                            img.section-2__content__partners__card__photo(src='./images/Bitmap-3.png', alt='')
+                            img.section-2__content__partners__card__icon.section-2__content__partners__card__icon_brush(src='./images/brush.png', alt='')
+                        h3.section-2__content__partners__name Marie Bennett
+                        p.section-2__content__partners__text.section-2__content__partners__text_marie
+                            | Currently
+                            | living in Colorado. Lover of art,
+                            | languages
+                            | and travelling.
+                    .section-2__content__partners.section-2__content__partners_diana
+                        .section-2__content__partners__card
+                            img.section-2__content__partners__card__photo(src='./images/Bitmap-4.png', alt='')
+                            img.section-2__content__partners__card__icon.section-2__content__partners__card__icon_camera(src='./images/camera.png', alt='')
+                        h3.section-2__content__partners__name Diana Wells
+                        p.section-2__content__partners__text.section-2__content__partners__text_diana
+                            | Living in
+                            | Athens, Greece. I love black and white
+                            | classics, chillout music and green tea.
+                    .section-2__content__partners.section-2__content__partners_christopher
+                        .section-2__content__partners__card
+                            img.section-2__content__partners__card__photo(src='./images/Bitmap-5.png', alt='')
+                            img.section-2__content__partners__card__icon.section-2__content__partners__card__icon_airplane(src='./images/airplane.png', alt='')
+                        h3.section-2__content__partners__name Christopher Pierce
+                        p.section-2__content__partners__text
+                            | Star Wars fanatic. I have a persistent enthusiasm
+                            | to
+                            | create new things.
+            button.section-2__button See other partners
+        section.section-3
+            h2.section-3__title Discover holiday activity ideas
+            .section-3__content
+                .section-3__content__sports
+                    h2.section-3__content__title.section-3__content__sports_title Sports and Activis
+                .section-3__content__health
+                    h2.section-3__content__title.section-3__content__health_title Wellness and Health
+                .section-3__content__extreme
+                    h2.section-3__content__title.section-3__content__extreme_title Extreme Sports and Expeditions
+                .section-3__content__games
+                    h2.section-3__content__title.section-3__content__games_title Games
+                .section-3__content__education
+                    h2.section-3__content__title.section-3__content__education_title Culture and Education
+                .section-3__content__relax
+                    h2.section-3__content__title.section-3__content__relax_title Enjomet and Relaxation
+                .section-3__content__trevel
+                    h2.section-3__content__title.section-3__content__trevel_title Trevelling
+        section.section-4
+            h2.section-4__title Crate your holiday activity
+            .section-4__content
+                h3.section-4__content__title Hi! What are your holiday interests?
+                .section-4__content__search
+                    input#search.section-4__content__search__form(placeholder='Enter your insterests', type='search')
+                    button.section-4__content__search__button Search partners
+        .line
